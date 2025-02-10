@@ -1,0 +1,59 @@
+//Quiz retake 
+#include<iostream>
+using namespace std;
+
+//declaration name parameters (), return type (in font)
+float PyramidVolume(int length, int width, int height);
+
+
+int main() {
+    //call
+	cout<<PyramidVolume(3, 4, 5);
+
+}
+
+//defintion: tells the function what it dose 
+float PyramidVolume(int length, int width, int height) {
+	return length * width * height / 3;
+}
+//-----------------------------------------------------------------
+#include<iostream>
+using namespace std;
+//declaration name parameters(), return
+bool isPotato(string word);
+
+int main() {
+	//call
+	cout << isPotato("is this a potato");
+}
+
+//definition
+bool isPotato(string word) {
+	if (word == "potato")
+		return true;
+	else
+		return false;
+}
+//---------------------------------------------------
+#include<iostream>
+using namespace std;
+void HiChew();  //void means it dosent return anything
+
+
+int main() {
+
+
+}
+//definition
+void HiChew() {
+	int num = rand() % 100;
+	if (num < 25)
+		cout << "you got a kiwi!" << endl;
+	else if (num < 50)
+		cout << "you got a mango!" << endl;
+	else if (num < 75)
+		cout << "you got a pineapple!" << endl;
+	else
+		cout << "you got a dragonfruit!" << endl;
+
+}
