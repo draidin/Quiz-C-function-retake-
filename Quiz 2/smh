@@ -1,0 +1,60 @@
+#include<iostream>
+using namespace std;
+
+
+float ConeVol(int radius, int height);
+
+
+int main() {
+	//call
+	cout << ConeVol(4, 6);
+
+}
+
+//defintion: tells the function what it dose
+float ConeVol(int radius, int height) {
+	 return V = 3.14 * r2 * h3 / 2;
+		
+
+}
+//-------------------------------------------------------------------------------------
+#include<iostream>
+using namespace std;
+
+//declaration name parameters(), return
+bool isAppleOrBannana(string word);
+
+int main() {
+	//call
+cout << isAppleOrBannana("is this a Apple or bannana");
+}
+
+//definition
+bool isAppleOrBannana (string word) {
+	if (word == "Apple")
+		return apple;
+	else
+		return bannana;
+
+}
+//------------------------------------------------------------------------------------------------------------------
+#include<iostream>
+using namespace std;
+void RandomDessert();  //void means it dosent return anything
+
+
+int main() {
+
+
+}
+//definition
+void RandomDessert() {
+	int num = rand() % 100;
+	if (num < 50)
+		cout << "you got cake" << endl;
+	else if (num < 30)
+		cout << "you got a Pie!" << endl;
+	else if (num < 20)
+		cout << "you got a IceCream!" << endl;
+
+}
